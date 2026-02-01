@@ -81,9 +81,18 @@ After deployment, you land on the worker sandbox dashboard. Now configure Zero T
 3. Copy your **Team domain** (format: `EXAMPLE.cloudflareaccess.com`)
 4. Copy your **Application Audience (AUD)** value
 
-### 3.2 Add Environment Variables
-1. Return to Workers dashboard
-2. Click **Settings**
+### 3.2 Get Application Audience (AUD) tag a.k.a CF_ACCESS_AUD
+1. Click your moltbot-sandbox in Workers & Pages menu item
+2. Click Settings menu item below the header
+3. Find the "..." to the far-right of workers.dev and 
+4. Click the 'Cloudflare Access' toggle switch to 'on'
+5. A popup will appear with your Audience (AUD) tag
+6. Copy your Audience AUD tag and save the value for the next step
+
+
+### 3.3 Add Environment Variables
+1. Return to Workers dashboard (you might already be there if you just saved your Audience AUD tag)
+2. Click **Settings** (again you might already be there if you just saved your Audience AUD tag)
 3. Under **Variables & Secrets**, click "Add"
 4. Add two secret variables:
 
