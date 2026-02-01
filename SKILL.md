@@ -79,7 +79,6 @@ After deployment, you land on the worker sandbox dashboard. Now configure Zero T
 1. Click **Zero Trust** in left-hand menu
 2. Click **Settings** at bottom of menu
 3. Copy your **Team domain** (format: `EXAMPLE.cloudflareaccess.com`)
-4. Copy your **Application Audience (AUD)** value
 
 ### 3.2 Get Application Audience (AUD) tag a.k.a CF_ACCESS_AUD
 1. Click your moltbot-sandbox in Workers & Pages menu item
